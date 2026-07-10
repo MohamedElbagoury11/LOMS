@@ -1,0 +1,10 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain:
+ *   - @CurrentUser()    – extracts the authenticated User from the request context
+ *   - @Permissions()    – declares the required permission(s) for a controller method
+ *   - @Public()         – marks an endpoint as publicly accessible (no auth required)
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md and docs/05-RBAC_DESIGN.md.
+ */

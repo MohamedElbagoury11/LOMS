@@ -12,4 +12,6 @@ export enum DatabaseTable {
   USER_PERMISSION_OVERRIDES = 'user_permission_overrides',
   CLIENTS = 'clients',
   CASES = 'cases',
+  SESSIONS = 'sessions',
+  AUDIT_LOGS = 'audit_logs',
 }

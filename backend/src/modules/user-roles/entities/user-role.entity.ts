@@ -23,7 +23,7 @@ export class UserRole extends BaseEntity {
   @Index()
   @Column({
     name: 'user_id',
-    type: 'char',
+    type: 'varchar',
     length: 36,
   })
   userId!: string;
@@ -40,7 +40,7 @@ export class UserRole extends BaseEntity {
   @Index()
   @Column({
     name: 'role_id',
-    type: 'char',
+    type: 'varchar',
     length: 36,
   })
   roleId!: string;

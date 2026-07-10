@@ -1,0 +1,12 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain module-scoped constants for:
+ *   - JWT_SECRET           – injection token for the JWT secret
+ *   - ACCESS_TOKEN_TTL     – access token lifetime (15 minutes)
+ *   - REFRESH_TOKEN_TTL    – refresh token lifetime (30 days)
+ *   - MAX_FAILED_ATTEMPTS  – login attempt limit before account lock (5)
+ *   - LOCK_DURATION_MS     – account lock duration (15 minutes)
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md sections 5, 11.
+ */

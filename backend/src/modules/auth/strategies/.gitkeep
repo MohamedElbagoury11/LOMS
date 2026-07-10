@@ -1,0 +1,9 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain Passport strategies for:
+ *   - JwtStrategy        – validates Bearer tokens in protected requests
+ *   - LocalStrategy      – validates username/password during login
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md sections 4 and 17.
+ */

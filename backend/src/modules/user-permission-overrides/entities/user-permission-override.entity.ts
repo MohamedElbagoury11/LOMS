@@ -31,7 +31,7 @@ export class UserPermissionOverride extends BaseEntity {
   @Index()
   @Column({
     name: 'user_id',
-    type: 'char',
+    type: 'varchar',
     length: 36,
   })
   userId!: string;
@@ -48,7 +48,7 @@ export class UserPermissionOverride extends BaseEntity {
   @Index()
   @Column({
     name: 'permission_id',
-    type: 'char',
+    type: 'varchar',
     length: 36,
   })
   permissionId!: string;

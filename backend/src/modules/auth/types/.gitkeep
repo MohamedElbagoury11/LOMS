@@ -1,0 +1,9 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain TypeScript type aliases and unions for:
+ *   - TokenPair           – { accessToken: string; refreshToken: string }
+ *   - AuthResult          – combined login response type
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md section 5 (Token Strategy).
+ */

@@ -1,0 +1,9 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain TypeScript interfaces for:
+ *   - JwtPayload         – shape of the JWT payload { sub, sessionId, username }
+ *   - AuthenticatedUser  – request context shape after JWT validation
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md section 6 (JWT Payload).
+ */

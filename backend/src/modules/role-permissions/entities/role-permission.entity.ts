@@ -26,7 +26,7 @@ export class RolePermission extends BaseEntity {
   @Index()
   @Column({
     name: 'role_id',
-    type: 'char',
+    type: 'varchar',
     length: 36,
   })
   roleId!: string;
@@ -43,7 +43,7 @@ export class RolePermission extends BaseEntity {
   @Index()
   @Column({
     name: 'permission_id',
-    type: 'char',
+    type: 'varchar',
     length: 36,
   })
   permissionId!: string;

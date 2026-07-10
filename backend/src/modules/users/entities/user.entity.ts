@@ -78,6 +78,21 @@ export class User extends AuditableEntity {
   mustChangePassword!: boolean;
 
   @Column({
+    name: 'failed_login_attempts',
+    type: 'int',
+    unsigned: true,
+    default: 0,
+  })
+  failedLoginAttempts!: number;
+
+  @Column({
+    name: 'locked_until',
+    type: 'timestamp',
+    nullable: true,
+  })
+  lockedUntil!: Date | null;
+
+  @Column({
     name: 'last_login_at',
     type: 'timestamp',
     nullable: true,

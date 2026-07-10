@@ -5,8 +5,8 @@ export interface PaginationMeta {
   limit: number;
   totalItems: number;
   totalPages: number;
-  hasNextPage: boolean;
-  hasPreviousPage: boolean;
+  hasNext: boolean;
+  hasPrevious: boolean;
   sortBy?: string;
   sortDirection: SortDirection;
 }

@@ -20,4 +20,10 @@ export const environmentValidationSchema = Joi.object({
   DB_DATABASE: Joi.string().required(),
   DB_LOGGING: Joi.boolean().default(false),
   SWAGGER_PATH: Joi.string().default('docs'),
+  // ── Authentication ─────────────────────────────────────────────────────────
+  JWT_ACCESS_SECRET: Joi.string().min(32).required(),
+  JWT_ACCESS_EXPIRES_IN: Joi.string().pattern(/^\d+(ms|s|m|h|d)$/).default('15m'),
+  JWT_REFRESH_SECRET: Joi.string().min(32).required(),
+  JWT_REFRESH_EXPIRES_IN: Joi.string().pattern(/^\d+(ms|s|m|h|d)$/).default('30d'),
+  AUTH_COOKIE_NAME: Joi.string().default('rt'),
 });

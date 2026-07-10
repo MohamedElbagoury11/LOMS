@@ -1,0 +1,11 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain Request/Response/Payload DTOs for:
+ *   - LoginRequestDto
+ *   - LoginResponseDto
+ *   - RefreshTokenDto
+ *   - ChangePasswordDto
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md and docs/07-API_STANDARDS.md.
+ */

@@ -43,8 +43,8 @@ export class PaginationHelper {
       limit: normalized.limit,
       totalItems,
       totalPages,
-      hasNextPage: normalized.page < totalPages,
-      hasPreviousPage: normalized.page > 1,
+      hasNext: normalized.page < totalPages,
+      hasPrevious: normalized.page > 1,
       sortBy: normalized.sortBy,
       sortDirection: normalized.sortDirection,
     };

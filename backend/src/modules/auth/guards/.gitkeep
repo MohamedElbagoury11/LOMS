@@ -1,0 +1,9 @@
+/**
+ * Auth module folder structure placeholder.
+ *
+ * This folder will contain:
+ *   - JwtAuthGuard       – validates the JWT access token on every protected request
+ *   - PermissionsGuard   – checks if the authenticated user holds the required permission
+ *
+ * See docs/06-AUTHENTICATION_DESIGN.md and docs/05-RBAC_DESIGN.md.
+ */
