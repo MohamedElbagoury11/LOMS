@@ -37,6 +37,10 @@ export const PERMISSION_DEFINITIONS: PermissionDefinition[] = [
     { name: 'documents.view', displayName: 'View Documents', description: 'View uploaded documents.' },
     { name: 'documents.upload', displayName: 'Upload Documents', description: 'Upload new documents.' },
     { name: 'documents.download', displayName: 'Download Documents', description: 'Download documents.' },
+    { name: 'documents.preview', displayName: 'Preview Documents', description: 'Preview supported documents inline.' },
+    { name: 'documents.share.create', displayName: 'Create Document Shares', description: 'Create temporary secure document share links.' },
+    { name: 'documents.share.read', displayName: 'Read Document Shares', description: 'View document share links.' },
+    { name: 'documents.share.revoke', displayName: 'Revoke Document Shares', description: 'Revoke temporary document share links.' },
     { name: 'documents.archive', displayName: 'Archive Documents', description: 'Archive documents.' },
 
     // ─── Finance ───────────────────────────────────────────────────────────────

@@ -1,6 +1,6 @@
 import {
-  PAGINATION_DEFAULT_PAGE,
-  PAGINATION_MAX_PAGE_SIZE,
+    PAGINATION_DEFAULT_PAGE,
+    PAGINATION_MAX_PAGE_SIZE,
 } from '../constants/pagination.constants';
 import { SortDirection } from '../enums/sort-direction.enum';
 import { PaginationDto } from './dto/pagination.dto';

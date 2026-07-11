@@ -11,6 +11,7 @@ export enum AuditEntity {
     PERMISSION = 'PERMISSION',
     CLIENT = 'CLIENT',
     CASE = 'CASE',
+    HEARING = 'HEARING',
     DOCUMENT = 'DOCUMENT',
     REPORT = 'REPORT',
     SETTINGS = 'SETTINGS',

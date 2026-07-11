@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
-import { AuthorizationModule } from '../authorization/authorization.module';
 import { AuthModule } from '../auth/auth.module';
+import { AuthorizationModule } from '../authorization/authorization.module';
 import { AuditController } from './controllers/audit.controller';
 import { AuditLog } from './entities/audit-log.entity';
 import { AuditEventListenerService } from './services/audit-event-listener.service';

@@ -1,7 +1,7 @@
 import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 
-import { AuthEvent } from '../../auth/events/auth-events.enum';
 import { AuthEventDispatcher } from '../../auth/events/auth-event-dispatcher';
+import { AuthEvent } from '../../auth/events/auth-events.enum';
 import {
     AccountLockedEventPayload,
     FailedLoginEventPayload,

@@ -1,3 +1,4 @@
+
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { APP_FILTER, APP_INTERCEPTOR } from '@nestjs/core';
@@ -16,7 +17,12 @@ import { swaggerConfig } from './config/swagger.config';
 import { createTypeOrmOptions } from './database/typeorm.config';
 import { AuditModule } from './modules/audit/audit.module';
 import { AuthModule } from './modules/auth/auth.module';
+import { CasesModule } from './modules/cases/cases.module';
+import { ClientsModule } from './modules/clients/clients.module';
+import { DocumentsModule } from './modules/documents/documents.module';
 import { HealthModule } from './modules/health/health.module';
+import { HearingsModule } from './modules/hearings/hearings.module';
+import { StorageModule } from './modules/storage/storage.module';
 import { UsersModule } from './modules/users/users.module';
 import { createWinstonLoggerOptions } from './shared/logger/winston-logger.config';
 
@@ -40,6 +46,11 @@ import { createWinstonLoggerOptions } from './shared/logger/winston-logger.confi
     HealthModule,
     AuthModule,
     AuditModule,
+    ClientsModule,
+    CasesModule,
+    HearingsModule,
+    DocumentsModule,
+    StorageModule,
     UsersModule,
   ],
   providers: [

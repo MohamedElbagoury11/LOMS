@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "lint documents service",
+			"type": "shell",
+			"command": "npm run lint",
+			"problemMatcher": []
+		},
+		{
+			"label": "backend build",
+			"type": "shell",
+			"command": "npm run build",
+			"problemMatcher": []
+		}
+	]
+}
